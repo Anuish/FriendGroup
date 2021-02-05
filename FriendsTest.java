@@ -1,7 +1,6 @@
 package Assignment9;
 
 /*Name: Modupeoluwa Oluwatayo.
- *Student number: 3006354
  */
 public class FriendsTest {
 
