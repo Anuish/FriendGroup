@@ -13,8 +13,7 @@ public class FriendsTest {
 		f.display();
 		System.out.println();
 		Person notThere = new Person("JJ", "Byrne");
-		System.out.printf("Person %s should not be there, so false: %b\n",
-													notThere.toString(),f.search(notThere));
+		System.out.printf("Person %s should not be there, so false: %b\n", notThere.toString(),f.search(notThere));
 		System.out.printf("Person %s should  be there, so true: %b\n",p1.toString(),f.search(p1));
 
 		System.out.println();
@@ -22,14 +21,12 @@ public class FriendsTest {
 
 		System.out.println();
 		f.add(new Person("Rosella", "O Keefe"));
-		System.out.printf("There should be 2 people with the surname 'O Keefe: %s",
-													f.getSurname("O Keefe").toString());
+		System.out.printf("There should be 2 people with the surname 'O Keefe: %s", f.getSurname("O Keefe").toString());
 		System.out.println();
 
 		System.out.println();
 		f.add(new Person("Rosella", "O Keefe"));
-		System.out.printf("There should be 2 people with the firstname 'Rosella': %s\n",
-													f.getFirstname("Rosella").toString());
+		System.out.printf("There should be 2 people with the firstname 'Rosella': %s\n", f.getFirstname("Rosella").toString());
 		System.out.println();
 		System.out.printf("There should be 1 person called 'Joe': %d\n",f.getFreq("Joe"));
 		f.add(new Person("Joe", "Bloggs"));
